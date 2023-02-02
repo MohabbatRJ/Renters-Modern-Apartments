@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome - Only Solid Icon Available -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Rental Project</title>
+</head>
+
+<body>
+
+    <!-- Loader Start -->
+    <div id="loaders" class="container-fluid">
+        <div class="row justify-content-center" style="min-height: 100vh">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Header Start  -->
+    <header id="header">
+        <nav class="navbar navbar-dark bg-dark  px-5 navbar-expand-lg">
+            <a href="#header" class="navbar-brand">
+                <img class="header-logo" src="images/logo.png"  />
+            </a>
+
+            <button class="navbar-toggler btn-outline-dark shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#myNavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="myNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a href="#header" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#featured" class="nav-link">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tour" class="nav-link">Tour</a>
+                    </li>
+                </ul>
+
+                <div class=" d-flex align-items-baseline justify-content-between flex-wrap mt-3">
+                    <p class="text-white mx-lg-4">
+                        <span class="me-2 phone-icon">
+                            <i class="fa-solid fa-phone-flip"></i>
+                        </span>
+                        +9234-44379220
+                    </p>
+                    <button class="btn global-btn text-capitalize mt2">book now</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End  -->
+
+    <!-- Banner Start  -->
+    <div id="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Banner Left Side   -->
+                <div class="col-lg-5 banner-left text-capitalize p-5">
+                    <h3 class="text-green text-slant">Santa mMnica Bay Property</h3>
+                    <h1>Modren Apartment</h1>
+                    <p>
+                        <span class="text-green text-slant">
+                            <i class="fa-solid fa-map"></i>
+                        </span>
+                        1500 persian drive sanata monica, san fransico
+                    </p>
+                    <p class="banner-para">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Voluptates nemo dignissimos eum quae veniam quos!
+                    </p>
+                    <a href="#" class="btn global-btn mb-5">read more</a>
+                    <!-- Banner Left Side Bottom Start -->
+                    <div class="banner-left-bottom d-flex justify-content-around py-2 ">
+                        <!-- Single Info 1 Start-->
+                        <div class="text-dark text-center fw-bold">
+                            <i class="fa-solid fa-bed"></i>
+                            <p class="mb-0">3</p>
+                            <p class="mb-0">bed</p>
+                        </div>
+                        <!-- Single Info 1 End-->
+
+                        <!-- Single Info 2 Start-->
+                        <div class="text-dark text-center fw-bold">
+                            <i class="fa-solid fa-bath"></i>
+                            <p class="mb-0">2</p>
+                            <p class="mb-0">Bath</p>
+                        </div>
+                        <!-- Single Info 2 End-->
+
+                        <!-- Single Info 3 Start-->
+                        <div class="text-dark text-center fw-bold">
+                            <i class="fa-solid fa-warehouse"></i>
+                            <p class="mb-0">4000</p>
+                            <p class="mb-0">Sq.Ft</p>
+                        </div>
+                        <!-- Single Info 3 End-->
+
+                        <!-- Single Info 4 Start-->
+                        <div class="text-dark text-center fw-bold">
+                            <i class="fa-solid fa-paw"></i>
+                            <p class="mb-0">Pets</p>
+                            <p class="mb-0">Allowed</p>
+                        </div>
+                        <!-- Single Info 4 End-->
+
+                        <!-- Single Info 5 Start-->
+                        <div class="text-dark text-center fw-bold">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <p class="mb-0">$3000</p>
+                            <p class="mb-0">Deposit</p>
+                        </div>
+                        <!-- Single Info 5 End-->
+                    </div>
+                    <!-- Banner Left Side Bottom End -->
+                </div>
+                <!-- Banner Left End  -->
+
+                <!-- Banner Right Start -->
+                <div class="col-lg-7 banner-right">
+                    <div class="banner-right-bottom px-3">
+                        <div class="center-div">
+                            <p class="text-capitalize text-green mb-0">rent price</p>
+                            <!-- <i class="fa-solid fa-dollar-sign text-white fs-4"></i> -->
+                            <h4 class="text-white">1 1,535/mo</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Right End-->
+            </div>
+        </div>
+    </div>
+    <!-- Banner End  -->
+
+    <!-- About Us Start  -->
+    <section id="about-us" class="py-5 b-0">
+        <div class="container">
+            <div class="row">
+                <!-- About Us Left Start -->
+                <div class="col-10 col-md-6 mx-auto my-3">
+                    <!-- Card  -->
+                    <div class="card m-1">
+                        <div class="card-image">
+                            <img src="images/featured-1.jpeg"  class="card-img-top" />
+                            <div class="arrow-icons">
+                                <a href="#" class="arrow-icon-left">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="arrow-icon-right">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">Exellent Property in Santomonica</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    1500 pershing drive santa monica , CA 90060
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card  -->
+                </div>
+                <!-- About Us Left End -->
+
+                <!-- About Us Right Start -->
+                <div class="col-10 col-md-6 mx-auto my-3 b-0">
+                    <!-- About Us Title Right Start -->
+                    <div class="row m-1">
+                        <div class="col text-center mb-3">
+                            <h3 class="text-green text-slant text-capitalize">
+                                renters realtors
+                            </h3>
+                            <h1 class="text-uppercase">About Us</h1>
+                            <div class="title-underline my-3 bg-secondary ">
+                                <div class="title-underline-center"></div>
+                            </div>
+                            <p class="w-75 mx-auto">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <!-- About Us Title Right Start -->
+
+                    <!-- About Us Body Right Start -->
+                    <h3 class="col text-uppercase mb-3">Book Now Today</h3>
+                    <blockquote class="blockquote text-green mb-3 text-right">
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Placeat, vel.
+                        </p>
+                        <footer class="mt-0 blockquote-footer text-green">Owner</footer>
+                    </blockquote>
+                    <p class="lead text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                        earum odit deserunt autem eum minima.
+                    </p>
+                    <a href="#" class="btn global-btn text-capitalize">book now</a>
+                    <!-- About Us Body Right Start -->
+                </div>
+                <!-- About Us Right End -->
+            </div>
+        </div>
+    </section>
+    <!-- About Us End  -->
+
+    <!-- Featured Start -->
+    <section id="featured" class="py-5 ">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">renters realtors</h3>
+                    <h1 class="text-uppercase">featured properties</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline-center">
+                        </div>
+                    </div>
+                    <p class="w-75 mx-auto">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Featured Card Start -->
+            <div class="row gx-0 gy-0 justify-content-center">
+                <div class=" col-sm-12 my-3 d-sm-flex ">
+                    <!-- Card  -->
+                    <div class="card me-2 mt-3">
+                        <div class="card-image">
+                            <img src="images/featured-1.jpeg" class="card-img-top" />
+                            <div class="arrow-icons">
+                                <a href="#" class="arrow-icon-left">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="arrow-icon-right">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body p-4">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">Exellent Property in Santomonica</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    1500 pershing drive santa monica , CA 90060
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card  -->
+
+                    <!-- Card  -->
+                    <div class="card me-2 mt-3">
+                        <div class="card-image">
+                            <img src="images/featured-2.jpeg" class="card-img-top" />
+                            <div class="arrow-icons">
+                                <a href="#" class="arrow-icon-left">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="arrow-icon-right">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body p-4">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">Exellent Property in Santomonica</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    1500 pershing drive santa monica , CA 90060
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card  -->
+
+                    <!-- Card  -->
+                    <div class="card mt-3">
+                        <div class="card-image">
+                            <img src="images/featured-3.jpeg"  class="card-img-top" />
+                            <div class="arrow-icons">
+                                <a href="#" class="arrow-icon-left">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="arrow-icon-right">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body p-4">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">Exellent Property in Santomonica</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    1500 pershing drive santa monica , CA 90060
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card  -->
+                </div>
+            </div>
+            <!-- Featured Card End -->
+        </div>
+    </section>
+    <!-- Featured End -->
+
+    <!-- Service Start -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Service left start  -->
+                <div class="col-10 mx-auto col-lg-4 align-self-center">
+                    <div class="img-container">
+                        <img src="images/featured-1.jpeg"  class="img-fluid" />
+                        <a href="#" class="text-capitalize services-info-text p-2">more details</a>
+                    </div>
+                </div>
+                <!-- Service left end  -->
+
+                <!-- Service right start -->
+                <!-- <div class="row "> -->
+                <div class="col-lg-8 my-3">
+                    <!-- title start-->
+                    <div class="row">
+                        <div class="col text-center mb-3">
+                            <h3 class="text-green text-slant text-capitalize">
+                                Renters Realtors
+                            </h3>
+                            <h1 class="text-uppercase text-white">Our Services</h1>
+                            <div class="title-underline my-3 bg-secondary">
+                                <div class="title-underline-center"></div>
+                            </div>
+                            <p class="w-75 mx-auto text-white">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- title end-->
+
+                    <!-- Service info section start  -->
+                    <div class="row">
+                        <!-- Service 1 start  -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3">
+                            <div class="service-icon align-self-center">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <!-- service info 1 start -->
+                            <div class="text-capitalize service-info">
+                                <h6 class="text-white">best neighborhood</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green ">read more
+                                    <span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- service info 1 end -->
+                        </div>
+                        <!-- Service 1 end  -->
+
+                        <!-- Service 2 start  -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3">
+                            <div class="service-icon align-self-center">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <!-- service info 2 start -->
+                            <div class="text-capitalize service-info">
+                                <h6 class="text-white">best neighborhood</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green ">read more
+                                    <span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- service info 2 end -->
+                        </div>
+                        <!-- Service 2 end  -->
+
+                        <!-- Service 3 start  -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3">
+                            <div class="service-icon align-self-center">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <!-- service info 3 start -->
+                            <div class="text-capitalize service-info">
+                                <h6 class="text-white">best neighborhood</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green ">read more
+                                    <span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- service info 3 end -->
+                        </div>
+                        <!-- Service 3 end  -->
+
+                        <!-- Service 4 start  -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3">
+                            <div class="service-icon align-self-center">
+                                <i class="fa-solid fa-gears"></i>
+                            </div>
+                            <!-- service info 4 start -->
+                            <div class="text-capitalize service-info">
+                                <h6 class="text-white">best neighborhood</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green ">read more
+                                    <span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- service info 4 end -->
+                        </div>
+                        <!-- Service 4 end  -->
+                    </div>
+                    <!-- Service info section start  -->
+                </div>
+            </div>
+            <!-- Service right end  -->
+        </div>
+        </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Gallery Start  -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">
+                        renters realtors
+                    </h3>
+                    <h1 class="text-uppercase text-light">our gallery</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline-center"></div>
+                    </div>
+                    <p class="w-75 mx-auto">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- title end-->
+
+            <!-- gallery button row -->
+            <div class="row">
+                <div class="col d-flex justify-content-around flex-wrap mb-4">
+                    <button type="button" class="btn global-btn text-capitalize gallery-btn mt-2">
+                        all
+                    </button>
+                    <button type="button" class="btn global-btn text-capitalize gallery-btn mt-2">
+                        living room
+                    </button>
+                    <button type="button" class="btn global-btn text-capitalize gallery-btn mt-2">
+                        kitchen
+                    </button>
+                    <button type="button" class="btn global-btn text-capitalize gallery-btn mt-2">
+                        bedroom
+                    </button>
+                </div>
+            </div>
+            <!-- gallery button row end-->
+
+            <!-- Gallery Images Start -->
+            <div class="row">
+                <!-- Column Left Start -->
+                <div class="col-10 col-lg-6 mx-auto my-3">
+                    <div class="gallery-image-con">
+                        <img src="images/livingRoom2.jpeg" class="gallery-image img-fluid" />
+                        <a href="#" class="text-capitalize gallery-info p-2 underline-0">Living Room</a>
+                        <sapn class="gallery-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </sapn>
+                    </div>
+                </div>
+                <!-- Column Left End-->
+
+                <!-- Column Right Start -->
+                <div class="col-10 col-lg-6 mx-auto my-3 d-flex flex-column justify-content-between">
+                    <!-- Row 1 start -->
+                    <div class="row">
+                        <!-- Column 1 Start-->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-image-con">
+                                <img src="images/bedroom2.jpeg"  class="gallery-image img-fluid" />
+                                <a href="#" class="text-capitalize gallery-info p-2">Bedroom</a>
+                                <sapn class="gallery-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </sapn>
+                            </div>
+                        </div>
+                        <!-- Column 1 End-->
+
+                        <!-- Column 2 Start-->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-image-con">
+                                <img src="images/bedroom.jpeg"  class="gallery-image img-fluid" />
+                                <a href="#" class="text-capitalize gallery-info p-2">Bedroom</a>
+                                <sapn class="gallery-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </sapn>
+                            </div>
+                        </div>
+                        <!-- Column 2 End-->
+                    </div>
+                    <!-- Row 1 end -->
+
+                    <!-- Row 2 start -->
+                    <div class="row">
+                        <!-- Column 1 Start-->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-image-con">
+                                <img src="images/livingRoom.jpeg"  class="gallery-image img-fluid" />
+                                <a href="#" class="text-capitalize gallery-info p-2">Living</a>
+                                <sapn class="gallery-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </sapn>
+                            </div>
+                        </div>
+                        <!-- Column 1 End-->
+
+                        <!-- Column 2 Start-->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-image-con">
+                                <img src="images/kitchen.jpeg"  class="gallery-image img-fluid" />
+                                <a href="#" class="text-capitalize gallery-info p-2">Kitchen</a>
+                                <sapn class="gallery-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </sapn>
+                            </div>
+                        </div>
+                        <!-- Column 2 End-->
+                    </div>
+                    <!-- Row 2 end -->
+                </div>
+                <!-- Column Right End -->
+
+            </div>
+            <!-- Gallery Images End -->
+        </div>
+    </section>
+    <!-- Gallery End  -->
+
+    <!-- Tour Start -->
+    <section id="tour" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <span class="tour-icon d-inline-block">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+                    <h3 class="text-green text-slant text-capitalize">
+                        Take a Virtual Tour
+                    </h3>
+                    <h1 class="text-uppercase text-white">Our Home Virtual Tour</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tour end-->
+
+    <!-- Places Start -->
+    <section id="places" class="places py-5">
+        <div class="container">
+            <!-- Title start -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">
+                        renters realtors
+                    </h3>
+                    <h1 class="text-uppercase">Nearby places</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline-center"></div>
+                    </div>
+                    <p class="w-75 mx-auto">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Title End-->
+
+            <div class="row align-items-center">
+                <!-- Column Right - Map Start -->
+                <div class="col-md-6 my-3">
+                    <div class="embed-reponsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.1136194067294!2d73.04695036448071!3d31.43853885832522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39224257c1398f15%3A0xbf6501937e6ff625!2zMzHCsDI2JzI0LjMiTiA3M8KwMDMnMDIuMCJF!5e0!3m2!1sen!2s!4v1614692836083!5m2!1sen!2s"
+                            width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <!-- Column Right - Map End  -->
+
+                <!-- Column Left - Place Start -->
+                <div class="col-md-6 my-3">
+                    
+                    <!-- Place 1 Start -->
+                    <div>
+                        <h6 class="text-capitalize my-3 d-flex justify-content-between">
+                            <span class="">
+                                <i class="fa-solid fa-arrow-right mx-2 text-green"></i>
+                                School
+                            </span>
+                            <span class="float-right">2.3 miles</span>
+                        </h6>
+                    </div>
+                    <!-- Place 1 End -->
+                    <!-- Place 1 Start -->
+                    <div>
+                        <h6 class="text-capitalize my-3 d-flex justify-content-between">
+                            <span class="">
+                                <i class="fa-solid fa-arrow-right mx-2 text-green"></i>
+                                Shopping Mall
+                            </span>
+                            <span class="float-right">2.3 miles</span>
+                        </h6>
+                    </div>
+                    <!-- Place 1 End -->
+                    <!-- Place 1 Start -->
+                    <div>
+                        <h6 class="text-capitalize my-3 d-flex justify-content-between">
+                            <span class="">
+                                <i class="fa-solid fa-arrow-right mx-2 text-green"></i>
+                                Mousque
+                            </span>
+                            <span class="float-right">2.3 miles</span>
+                        </h6>
+                    </div>
+                    <!-- Place 1 End -->
+                    <!-- Place 1 Start -->
+                    <div>
+                        <h6 class="text-capitalize my-3 d-flex justify-content-between">
+                            <span class="">
+                                <i class="fa-solid fa-arrow-right mx-2 text-green"></i>
+                                Restorants
+                            </span>
+                            <span class="float-right">2.3 miles</span>
+                        </h6>
+                    </div>
+                    <!-- Place 1 End -->
+                </div>
+                <!-- Column Left - Place End -->
+            </div>
+        </div>
+    </section>
+    <!-- Places End -->
+
+    <!-- Newsletter Start -->
+    <section id="newsletter" class="py-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-10 mx-auto col-md-6 my-3">
+                    <h3 class="text-capitalize text-center">
+                        <sapn class="newsletter-icon mx-2">
+                            <i class="fa-solid fa-envelope"></i>
+                        </sapn>
+                        sign up to our newsletter
+                    </h3>
+                </div>
+                <div class="col-10 mx-auto col-md-6 my-3">
+                    <form action="" class="row gy-2 gx-3 align-items-center justify-content-center flex-lg-column">
+                        <input type="text" class="form-control text-capitalize w-50 me-2" placeholder="Enter your email" />
+                        <button type="submit" class="btn newsletter-btn text-capitalize w-25">
+                            sign up
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter End-->
+
+    <!-- Footer Start -->
+    <footer class="py-5" id="footer">
+        <div class="container">
+            <div class="row flex-wrap justify-content-evenly align-items-center">
+                <!-- Footer Left Start -->
+                <div class="col-lg-4  px-3 text-center my-3">
+                    <img src="images/logo.png" class="img-fluid w-25" />
+                    <p class="text-muted my-3 text-left">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                        dignissimos, nemo eius dolorem quis cupiditate soluta aperiam
+                        perferendis qui at.
+                    </p>
+                    <a href="#" class="text-green service-link text-capitalize">read more
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+                <!-- Footer Left End -->
+
+                <!-- Footer Center Start -->
+                <div class="col-lg-5 col-xl-4 px-3 text-center my-3">
+                    <!-- Footer Title Start -->
+                    <div class="row">
+                        <div class="col text-center mb-3">
+                            <h1 class="text-uppercase text-white">contact us</h1>
+                            <div class="title-underline my-3 bg-secondary">
+                                <div class="title-underline-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Title End-->
+
+                    <!-- Footer Contact 1 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between ">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-map"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            Vehari
+                        </p>
+                    </div>
+                    <!-- ooter Contact 1 End-->
+
+                    <!-- Footer Contact 2 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            +92-308-1474911
+                        </p>
+                    </div>
+                    <!-- ooter Contact 2 End-->
+
+                    <!-- Footer Contact 3 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            mohabbatrj00
+                        </p>
+                    </div>
+                    <!-- ooter Contact 3 End-->
+
+                    <!-- Footer Contact 4 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </span>
+                        <p class="text-white">
+                            mohabbatrj
+                        </p>
+                    </div>
+                    <!-- ooter Contact 4 End-->
+
+                    <!-- Footer Contact 5 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-clock"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            Sat - Thu 8:00 AM - 6-00 PM
+                        </p>
+                    </div>
+                    <!-- Footer Contact 5 End-->
+                </div>
+                <!-- Footer Center End -->
+
+                <!-- Footer Right Start -->
+                <div class="col-lg-6 col-xl-4 px-3 text-center my-3">
+                    <!-- Footer Title Start -->
+                    <div class="row">
+                        <div class="col text-center mb-3">
+                            <h1 class="text-uppercase text-white">Menu</h1>
+                            <div class="title-underline my-3 mt-3 bg-secondary">
+                                <div class="title-underline-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Title End-->
+
+                    <!-- Footer Menu 1 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-house text-green"></i>
+                        </span>
+                        <p class="text-white">
+                            <a class="text-white" href="#header">Home</a>
+                        </p>
+                    </div>
+                    <!-- Footer Menu 1 End-->
+
+                    <!-- Footer Menu 2 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-address-card text-green"></i>
+                        </span>
+                        <p class="text-white ">
+                            <a class="text-white" href="#about-us">About Us</a>
+                        </p>
+                    </div>
+                    <!-- Footer Menu 2 End-->
+
+                    <!-- Footer Menu 3 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-cubes text-green"></i>
+                        </span>
+                        <p class="text-white ">
+                            <a class="text-white" href="#featured">Featured</a>
+                        </p>
+                    </div>
+                    <!-- Footer Menu 3 End-->
+
+                    <!-- Footer Menu 4 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-users-gear text-green"></i>
+                        </span>
+                        <p class="text-white">
+                            <a class="text-white" href="#service">Service</a>
+                        </p>
+                    </div>
+                    <!-- Footer Menu 4 End-->
+
+                    <!-- Footer Menu 5 Start -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fa-solid fa-image text-green"></i>
+                        </span>
+                        <p class="text-white ">
+                            <a class="text-white" href="#gallery">Gallery</a>
+                        </p>
+                    </div>
+                    <!-- Footer Menu 5 End-->
+                </div>
+                <!-- Footer Right End -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Jquery  -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!-- javascript -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
