@@ -3,5 +3,4 @@
 
 A website idea for rental project, only front-end with html,css, bootstrap and js by MohabbatRJ
 ## website link
-<a href="[https://www.buymeacoffee.com/mohabbatrj](https://mohabbatrj.github.io/Renters-Modern-Apartments/
-)" target="_blank">Renters-Modern-Apartments</a>
+<a href='https://mohabbatrj.github.io/Renters-Modern-Apartments/" target="_blank">Renters-Modern-Apartments</a>
